@@ -22,6 +22,8 @@
    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
    THE SOFTWARE.
 
+   See more: https://github.com/ClemersonAssuncao/Love2D-UnitTest-Framework
+   
 --]==]
 
 -- test/TestFramework.lua

@@ -28,6 +28,10 @@ The UI interface provides a visual representation of your test suites and result
 - **LÖVE2D 11.0+** (https://love2d.org/)
 - **Lua 5.1+** (included with LÖVE2D)
 
+## Embedded libraries
+
+- [**DKjson**](https://github.com/LuaDist/dkjson): A JSON library for Lua
+
 ## Quick Start
 
 ### Installation
@@ -78,10 +82,11 @@ The UI interface provides a visual representation of your test suites and result
 3. **Run your tests:**
    ```bash
    # Navigate to your project directory
-   cd your-love2d-project/
+   cd your-love2d-project/test
 
    # Run tests with LÖVE2D
-   love test/
+   # this assumes you have LÖVE2D installed and available in your PATH
+   love .
    ```
 
 ## Framework API
